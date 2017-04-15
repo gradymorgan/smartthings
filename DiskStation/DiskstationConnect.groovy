@@ -78,10 +78,9 @@ def motionSetup()
                 paragraph "11. Type 123-4567890 for the first phone number"
                 paragraph "12. Press 'Send a test SMS message' to update this screen"
                 paragraph "13. Now click on the Settings tab in the Nofications window"
-                paragraph "14. Go to the Camera section of this pane and then check SMS for Motion Detected"
-                paragraph "15. With the Motion Detected row highlighted, choose Edit and then Edit Notification from the top left of this pane"
-                paragraph "16. Put the following text into the Subject line and choose Save"
-                input "ignore2", "text", title:"", defaultValue:"Camera %CAMERA% on %SS_PKG_NAME% has detected motion"
+                paragraph "14. Go to Surveillance Station on the left side of this pane, then go to the Camera section, and then click Motion Detected"
+                paragraph "15. Select SMS as the Notification Type"
+		input "ignore2", "text", title:"", defaultValue:"Camera %CAMERA% on %SS_PKG_NAME% has detected motion"
                 paragraph "If the page does not say 'success' within 10-15 seconds after sending the test message, " +
                 		  "go to the previous page and come back to refresh the screen again. If you still don't have " +
                           "the success message, retrace these steps."
